@@ -27,12 +27,12 @@ parts:
             - qtdeclarative5-ubuntu-ui-toolkit-plugin
             - qtdeclarative5-dev
             - libqt5gui5-gles
-        filesets:
-            unwanted:
-                - -usr/lib/x86_64-linux-gnu/libQt5*.so* 
-                - -usr/lib/x86_64-linux-gnu/qt5/
-                - -usr/lib/x86_64-linux-gnu/libOxideQt*
-                - -usr/lib/x86_64-linux-gnu/oxide-qt/
+#        filesets:
+#            unwanted:
+#                - -usr/lib/x86_64-linux-gnu/libQt5*.so* 
+#                - -usr/lib/x86_64-linux-gnu/qt5/
+#                - -usr/lib/x86_64-linux-gnu/libOxideQt*
+#                - -usr/lib/x86_64-linux-gnu/oxide-qt/
 #        stage: 
 #            - $unwanted
 #    prebuilt:
